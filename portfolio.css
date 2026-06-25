@@ -1,0 +1,192 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ================= BODY ================= */
+body {
+    background-color: #0b0b0b;
+    color: #f5f5f5;
+    line-height: 1.8;
+}
+
+/* ================= HEADER ================= */
+header {
+    background: linear-gradient(180deg, #000000, #111111);
+    padding: 50px 20px;
+    border-bottom: 3px solid #facc15;
+}
+
+/* Main title */
+header h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #facc15;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* ================= NAV ================= */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+nav li {
+    list-style: none;
+    margin: 0px 30px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 25px;
+    border: 1px solid #facc15;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #facc15;
+    color: #000000;
+    box-shadow: 0 6px 20px rgba(250, 204, 21, 0.4);
+}
+
+/* ================= ABOUT SECTION ================= */
+header section {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #121212;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(250, 204, 21, 0.15);
+}
+
+header section h2 {
+    color: #facc15;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+header section p {
+    color: #dddddd;
+    font-size: 16px;
+}
+
+/* ================= MAIN ================= */
+main {
+    padding: 70px 20px;
+}
+
+/* ================= SKILLS & PROJECTS SECTIONS ================= */
+main section {
+    max-width: 1000px;
+    margin: 0 auto 60px auto;
+    background-color: #0f0f0f;
+    padding: 35px;
+    border-radius: 18px;
+    border-left: 6px solid #facc15;
+}
+
+/* Section headings */
+main h2 {
+    color: #facc15;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Sub headings */
+main h3 {
+    color: #facc15;
+    margin: 12px 0 6px;
+}
+
+/* Lists */
+main ul,
+main ol {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+main li {
+    margin-bottom: 8px;
+}
+
+/* Nested skill lists */
+#skills ul ul {
+    margin-top: 6px;
+    margin-left: 20px;
+    list-style-type: circle;
+    color: #eaeaea;
+}
+
+/* Paragraphs inside projects */
+#projects p {
+    color: #dcdcdc;
+    margin-bottom: 10px;
+}
+
+/* HR inside projects */
+#projects hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #facc15, transparent);
+    margin: 25px 0;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    background-color: #000000;
+    padding: 45px 20px;
+    border-top: 3px solid #facc15;
+}
+
+footer h2 {
+    text-align: center;
+    color: #facc15;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 8px;
+    color: #dddddd;
+}
+
+/* Footer links */
+footer a {
+    color: #facc15;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    main h2 {
+        font-size: 26px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    header section,
+    main section {
+        padding: 25px;
+    }
+}
