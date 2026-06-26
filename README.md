@@ -58,7 +58,7 @@ portfolio/
 ## 📬 Connect With Me
 
 - 🌐 Portfolio: https://sakshamjaiswal69.github.io/portfolio/
-- 💼 LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
+- 💼 LinkedIn:[ https://www.linkedin.com/in/YOUR-LINKEDIN](https://www.linkedin.com/in/saksham-jaiswal-85b19a331/)
 - 💻 GitHub: https://github.com/SakshamJaiswal69
 - 📧 Email: your-A6136593@example.com
 
