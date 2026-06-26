@@ -1,0 +1,151 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0d0d0d;
+    color:#f5f5f5;
+    line-height:1.8;
+}
+
+section{
+    width:85%;
+    max-width:1000px;
+    margin:60px auto;
+    background:#161616;
+    padding:45px;
+    border-radius:20px;
+    border-left:6px solid #FFD700;
+    box-shadow:0 10px 30px rgba(0,0,0,.45);
+}
+
+section li{
+    list-style:none;
+    font-size:2rem;
+    color:#FFD700;
+    font-weight:700;
+    margin-bottom:35px;
+}
+
+h3{
+    color:#FFD700;
+    margin-top:28px;
+    margin-bottom:12px;
+    font-size:1.35rem;
+    position:relative;
+}
+
+h3::before{
+    content:"▌";
+    color:#FFD700;
+    margin-right:8px;
+}
+
+p{
+    color:#d7d7d7;
+    text-align:justify;
+    font-size:1rem;
+}
+
+b{
+    color:#FFD700;
+}
+
+ul{
+    margin-top:10px;
+    margin-left:28px;
+}
+
+ul li{
+    list-style:disc;
+    color:#ffffff;
+    font-size:1rem;
+    margin:12px 0;
+    font-weight:400;
+}
+
+hr{
+    border:none;
+    height:1px;
+    background:#333;
+    margin:40px 0;
+}
+
+/* Buttons */
+
+.buttons{
+    margin-top:40px;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.buttons a{
+    text-decoration:none;
+    background:#FFD700;
+    color:#111;
+    padding:12px 28px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.buttons a:hover{
+    background:white;
+    transform:translateY(-3px);
+}
+
+/* Technologies */
+
+.tech{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:15px;
+}
+
+.tech span{
+    background:#242424;
+    border:1px solid #FFD700;
+    color:#FFD700;
+    padding:8px 18px;
+    border-radius:50px;
+    font-size:.9rem;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+section{
+    width:95%;
+    padding:25px;
+}
+
+section li{
+    font-size:1.6rem;
+}
+
+h3{
+    font-size:1.2rem;
+}
+
+p{
+    font-size:.95rem;
+}
+
+.buttons{
+    flex-direction:column;
+}
+
+.buttons a{
+    text-align:center;
+}
+
+}
