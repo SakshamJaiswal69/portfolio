@@ -10,17 +10,27 @@
 </head>
 
 <body>
-    <header>
+    
         <h1>My Portfolio</h1>
-        <nav>
-            </ul>
-            <li id="nbuttons"><a href="#about">About</a></li>
-            <li id="nbuttons"><a href="#skills">Skills</a></li>
-            <li id="nbuttons"><a href="#certificates">Certificates</a></li>
-            <li id="nbuttons"><a href="#projects">Projects</a></li>
-            <li id="nbuttons"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+       <header>
+    <nav class="navbar">
+
+        <div class="logo">
+            <a href="#">Saksham.</a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="resume.pdf" class="resume-btn" download>Resume</a>
+
+    </nav>
+</header>
         <section>
             <h2>👋 About Me</h2>
             <p>
@@ -100,7 +110,7 @@
         </section>
         <hr style="border: 1px solid #facc15; margin: 20px 0;">
     
-        <section id="Certificates">
+        <section id="certificates">
             <h2>� Certificates</h2>
             <ul>
 
@@ -112,7 +122,10 @@
                         <li>📊 Data Analysis</li>                        
                     </ul>
                 </li>
-
+                <div class="buttons">                
+                <a href="http://127.0.0.1:5500/JarvisD.html">Details</a>
+                </div>
+                
                 <li> <b>2.🏆 Udemy - Responsisive Web Design with CSS</b> 
                     <p><i> <b>Skils :</b> </i></p>
                     <ul>
@@ -122,6 +135,10 @@
                         <li>⚡ Basic JavaScript</li>
                     </ul>
                 </li>
+                <div class="buttons">                
+                <a href="https://www.udemy.com/certificate/UC-4eb2cfae-afbb-4d5b-98dd-3a55b56dd188/">Details</a>
+                </div>
+
                 <li> <b>3.🏆 Udemy - Python for AI & ML</b>
                     <p><i> <b>Skils :</b> </i></p>
                     <ul>
@@ -131,6 +148,10 @@
                         
                     </ul>
                 </li>
+                <div class="buttons">               
+                <a href="https://www.udemy.com/certificate/UC-8f7fac91-ece9-4aa0-af23-c943a5bba3f7/">Details</a>
+                </div>
+
                 <li> <b>4.🏆 Great Learning - UI/UX Design</b>
                     <p><i> <b>Skils :</b> </i></p>
                     <ul>
@@ -142,60 +163,92 @@
                 </li>
                 
             </ul>
+                <div class="buttons">               
+                <a href="https://www.mygreatlearning.com/certificate/GMQYFTBT/">Details</a>
+                </div>
         </section>
         <hr style="border: 1px solid #facc15; margin: 20px 0;">
     
 
         <section id="projects">
-            <h2>💼 Projects</h2>
+
+            
+            <h2>💼  My Projects</h2>
+            <div class="project-container">
+
+        <div class="project-card">
+
+            <h3><b>📊 Data Analysis on Sales Data using Python (Pandas, Matplotlib)</b></h3>
+
+            <p class="project-desc">
+                Performed data analysis on a sales dataset using Python to clean, analyze, 
+                and visualize key patterns such as sales trends and performance metrics.
+            </p>
+
+            <div class="tech-stack">
+                <h4> <b>Technologies Used:</b> </h4>
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>Matplotlib</span>
+                <span>Exploratory Data Analysis</span>
+            </div>
+
+            <h4>✨ Highlights</h4>
+
             <ul>
-                <li><b>📊 Data Analysis on Sales Data using Python (Pandas, Matplotlib)</b></li><br>
-                <h3> Problem:</h3>
-                <p>Raw sales data is often difficult to interpret and does not clearly show trends, performance, or
-                    insights.</p>
-                <h3> Solution:</h3>
-                <p>Performed data analysis on a sales dataset using Python to clean, analyze, and visualize key patterns
-                    such as sales trends and performance metrics.</p>
-                <h3> Technologies Used:</h3>
-                <p>Python, Pandas, Matplotlib</p>
-                <h3> Key Learnings:</h3>
-                <ul>
-                    <li>Data cleaning and preprocessing</li>
-                    <li>Exploratory Data Analysis (EDA)</li>
-                    <li>Visualizing data for better decision-making</li>
-                    <li>Understanding real-world datasets</li>
-                </ul>
-                <br>
-                <hr><br>
-                <br>
-                <hr><br>
+                <li>Data cleaning and preprocessing</li>
+                <li>Exploratory Data Analysis (EDA)</li>
+                <li>Visualizing data for better decision-making</li>
+                <li>Understanding real-world datasets</li>
+            </ul>
 
-                <li><b>🌐 Simple Portfolio Website using HTML/CSS</b></li>
-                <h3> Problem:</h3>
-                <p> A developer needs a professional online presence to showcase skills, projects, and background in a
-                    structured way.</p>
-                <h3> Solution:</h3>
-                <p>Designed and developed a personal portfolio website using HTML and CSS to present education, skills,
-                    and projects in a clean and organized format.</p>
-                <h3> Technologies Used:</h3>
-                <p> HTML, CSS</p>
-                <h3> Key Learnings:</h3>
-                <ul>
-                    <li>Website structure and layout planning</li>
-                    <li>Semantic HTML</li>
-                    <li>Basic responsive design principles</li>
-                    <li>Presenting technical information professionally</li>
-                </ul>
-                <br>
-                <hr><br>
+            <div class="buttons">
+                <a href="https://github.com/SakshamJaiswal69" target="_blank">GitHub</a>
+                <a href="http://127.0.0.1:5500/JarvisD.html">Details</a>
+            </div>
 
-                <br>
-                <hr><br>
+        </div>
 
-                <section id="projects">
-    <h2>💼 My Projects</h2>
+    </div>
 
+            
     <div class="project-container">
+
+        <div class="project-card">
+
+            <h3>🌐 Simple Portfolio Website using HTML & CSS</h3>
+
+            <p class="project-desc">
+                Designed and developed a personal portfolio website using HTML and CSS to present education, skills,
+                    and projects in a clean and organized format.
+            </p>
+
+            <div class="tech-stack">
+                <h4> <b>Technologies Used:</b> </h4>
+                <span>HTML</span>
+                <span>CSS</span>                
+                <span>Responsive Design</span>
+            </div>
+
+            <h4>✨ Highlights</h4>
+
+            <ul>
+                <li>Website structure and layout planning</li>
+                <li>Semantic HTML</li>
+                <li>Basic responsive design principles</li>
+                <li>Presenting technical information professionally</li>
+            </ul>
+
+            <div class="buttons">
+                <a href="https://github.com/SakshamJaiswal69" target="_blank">GitHub</a>
+                <a href="http://127.0.0.1:5500/JarvisD.html">Details</a>
+            </div>
+
+        </div>
+
+    </div>        
+
+     <div class="project-container">
 
         <div class="project-card">
 
@@ -207,6 +260,7 @@
             </p>
 
             <div class="tech-stack">
+                <h4> <b>Technologies Used:</b> </h4>
                 <span>Python</span>
                 <span>AI APIs</span>
                 <span>NLP</span>
@@ -223,7 +277,118 @@
             </ul>
 
             <div class="buttons">
-                <a href="#">GitHub</a>
+                <a href="https://github.com/SakshamJaiswal69" target="_blank">GitHub</a>
+                <a href="http://127.0.0.1:5500/JarvisD.html">Details</a>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="project-container">
+
+        <div class="project-card">
+
+            <h3><b>🍽️ Menu Ordering System in Python</b></h3>
+
+            <p class="project-desc">
+                Designed and developed a menu ordering system in 
+                Python to facilitate communication and order placement for users in a new country.
+.
+            </p>
+
+            <div class="tech-stack">
+                <h4> <b>Technologies Used:</b> </h4>
+                <span>Python</span>
+                <span>Conditional Statements</span>
+                <span>Loops</span>
+                <span>Functions</span>
+            </div>
+
+            <h4>✨ Highlights</h4>
+
+            <ul>
+                <li>Handling real-world communication problems using logic</li>
+                <li>Improving program flow for better user experience</li>
+                <li>GUI</li>
+                <li>Practical application of conditional logic</li>
+                <li>built-in audio in native language</li>
+            </ul>
+
+            <div class="buttons">
+                <a href="https://github.com/SakshamJaiswal69" target="_blank">GitHub</a>
+                <a href="http://127.0.0.1:5500/JarvisD.html">Details</a>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="project-container">
+
+        <div class="project-card">
+
+            <h3><b>📊 Result Management System in Python</b></h3>
+
+            <p class="project-desc">
+                Built a result management system that stores, retrieves, and displays student results efficiently
+                using Python. The system helps manage academic records in an organized and structured manner.
+.
+            </p>
+
+            <div class="tech-stack">
+                <h4> <b>Technologies Used:</b> </h4>
+                <span>Python(Tkinter,Pillow)</span>
+                <span>SQLite3</span>
+                <span>File Handling</span>
+                <span>XAMPP Server</span>
+            </div>
+
+            <h4>✨ Highlights</h4>
+
+            <ul>
+                <li>Handling real-world communication problems using logic</li>
+                <li>Improving program flow for better user experience</li>
+                <li>GUI</li>
+                <li>Practical application of conditional logic</li>
+                <li>built-in audio in native language</li>
+            </ul>
+
+            <div class="buttons">
+                <a href="https://github.com/SakshamJaiswal69" target="_blank">GitHub</a>
+                <a href="http://127.0.0.1:5500/JarvisD.html">Details</a>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="project-container">
+
+        <div class="project-card">
+
+            <h3><b>💳 UPI QR Generator in Python</b></h3>
+
+            <p class="project-desc">
+                Created a Python program to generate UPI QR codes automatically. This project was built mainly for
+                    experimentation and fun while learning practical Python usage.
+.
+            </p>
+
+            <div class="tech-stack">
+                <h4> <b>Technologies Used:</b> </h4>
+                <span>Python</span>
+                <span>QR Code Generation Library</span>
+            </div>
+
+            <h4>✨ Highlights</h4>
+
+            <ul>
+                <li>Working with external libraries</li>
+                <li>Understanding real-world payment workflows</li>
+                <li>Experimenting with automation ideas</li>
+                <li>Applying Python beyond academic problems</li>                
+            </ul>
+
+            <div class="buttons">
+                <a href="https://github.com/SakshamJaiswal69" target="_blank">GitHub</a>
                 <a href="http://127.0.0.1:5500/JarvisD.html">Details</a>
             </div>
 
@@ -231,103 +396,7 @@
 
     </div>
 
-</section>
-
-                <li><b>🤖 Jarvis:- An AI Assistant</b></li>
-                <h3> Problem:</h3>
-                <p> Many users need quick Access to information,basic automation,assitstance 
-                    with everyday tasks,but switching between multiple applications and tools can be
-                     inefficient and time consuming.</p>
-                <h3> Solution:</h3>
-                <p>Developed a personal AI assistant named <b>JARVIS</b> using Python.The assintant is designed to 
-                    understand user comands and assist with various task through a simple conversational interface.
-                    It can respond to queries,perform predefined actions,perform perdefined actions,and provide a more
-                    interactive and user-Friendly experience compared to traditional command-line program</p>
-                <h3> Technologies Used:</h3>
-                <p>Python,🧠AI APIs,🎙️Speech Processing,⚡Automation libraries,Natural Language Processing concepts</p>
-                <h3> Key Learnings:</h3>
-                <ul>
-                    <li>Accepts user commands through a conversational interface</li>
-                    <li>Provides quick responses and assistance for common tasks</li>
-                    <li>Integrates multiple functionalities into a single application</li>
-                    <li>Designed with a focus on usability and extensibility</li>
-                </ul>
-                <h3> Impact:</h3>
-                <p>This project strengthened my understanding of AI-assisted software development and demonstrated how programming can be used to create practical tools
-                     that improve user productivity and accessibility.</p>
-                <br>
-                <hr><br>
-                <br>
-                <hr><br>
-
-                <li><b>🍽️ Menu Ordering System in Python</b></li>
-                <h3> Problem:</h3>
-                <p> People visiting a new country often face language barriers, making it difficult for them to
-                    communicate
-                    and place food orders.</p>
-                <h3> Solution:</h3>
-                <p>Designed and developed a menu ordering system in Python to facilitate communication and order placement for users in a new country.</p>
-                <h3> Technologies Used:</h3>
-                <p>Python, Conditional Statements, Loops</p>
-
-                <h3> Key Learnings:</h3>
-                <ul>
-                    <li>User-friendly program design</li>
-                    <li>Handling real-world communication problems using logic</li>
-                    <li>Improving program flow for better user experience</li>
-                    <li>Practical application of conditional logic</li>
-                </ul>
-                <br>
-                <hr><br>
-                <br>
-                <hr><br>
-
-                <li><b>📊 Result Management System in Python</b></li>
-                <h3> Problem:</h3>
-                <p> Manually managing student results can be time-consuming, error-prone, and inefficient.</p>
-                <h3> Solution:</h3>
-                <p>Built a result management system that stores, retrieves, and displays student results efficiently
-                    using
-                    Python. The system helps manage academic records in an organized and structured manner.</p>
-                <h3> Technologies Used:</h3>
-                <ol></ol>
-                <li>Python(Tkinter,Pillow)</li>
-                <li>SQLite3</li>
-                <li>File Handling</li>
-                <li>XAMPP Server</li>
-                </ol>
-                <h3> Key Learnings:</h3>
-                <ul>
-                    <li> Writing modular and readable code</li>
-                    <li>File handling concepts</li>
-                    <li>CRUD-like operations</li>
-                    <li>Logical problem decomposition</li>
-
-                </ul>
-                <br>
-                <hr><br>
-                <br>
-                <hr><br>
-
-                <li><b>💳 UPI QR Generator in Python</b></li>
-                <h3> Problem:</h3>
-                <p> Generating UPI QR codes manually is inconvenient and repetitive.</p>
-                <h3> Solution:</h3>
-                <p>Created a Python program to generate UPI QR codes automatically. This project was built mainly for
-                    experimentation and fun while learning practical Python usage.</p>
-                <h3> Technologies Used:</h3>
-                <p> Python, QR Code Generation Library</p>
-                <h3> Key Learnings:</h3>
-                <ul>
-                    <li>Working with external libraries</li>
-                    <li>Understanding real-world payment workflows</li>
-                    <li>Applying Python beyond academic problems</li>
-                    <li>Experimenting with automation ideas</li>
-                </ul>
-                <br>
-                <br>
-            </ul>
-        </section>
+</section>            
     </main>
     <footer>
         <section id="contact">
