@@ -60,7 +60,7 @@ portfolio/
 - 🌐 Portfolio: https://sakshamjaiswal69.github.io/portfolio/
 - 💼 LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
 - 💻 GitHub: https://github.com/SakshamJaiswal69
-- 📧 Email: your-email@example.com
+- 📧 Email: your-A6136593@example.com
 
 ## 📄 License
 
